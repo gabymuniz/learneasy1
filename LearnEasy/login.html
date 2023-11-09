@@ -1,0 +1,49 @@
+<?php
+    session_start();
+
+?>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Learn Easy - Tela Login</title>
+</head>
+
+<body>
+    <style>
+        body {
+            background-color: #EFEDC7;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+    </style>
+
+    <div class="imagem-2">
+        <img src="img/lear.jpg" />
+    </div>
+
+    <div class="">
+
+        <form action="carregamento.html" class="formulario" method="GET" onsubmit="">
+            <div class="dados">
+                <label for="">E-mail:</label>
+                <input type="email" name="email" placeholder="E-mail">
+                <br><br>
+                <label for="">Senha:</label>
+                <input type="password" name="senha" placeholder="Senha">
+                <div class="btnCadastro">
+                    <a class="link" href="cadastro.html">Não tem cadastro? Cadastre-se</a>
+                </div>
+                <a href="carregamento.html"><button class="botao">Logar</button>
+            </div>
+
+        </form>
+    </div>
+    <a href="index.html"><button class="btn">VOLTAR</button>
+</body>
+
+</html>

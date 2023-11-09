@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="confirma.js"></script>
+    <title>Learn Easy - Cadastro</title>
+</head>
+
+<body>
+
+    <style>
+        body {
+            background-color: #EFEDC7;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+    </style>
+
+    <h1>Tela de Cadastro</h1>
+    <form class="cadastro" method="POST" action="processa.php">
+        <div class="dadosCad">
+            <label for="" class="rotulo">Nome: </label>
+            <input type="text" name="nome" class="dado" placeholder="Nome" required>
+        </div>
+        <div class="dadosCad">
+            <label for="" class="rotulo">Sobrenome: </label>
+            <input type="text" name="sobrenome" class="dado" placeholder="Sobrenome" required>
+
+        </div>
+
+        <div class="dadosCad">
+            <label for="" class="rotulo">E-mail: </label>
+            <input type="email" name="email" class="dado" placeholder="E-mail" required>
+        </div>
+
+        <div class="dadosCad">
+            <label for="" class="rotulo">Instituição de Ensino: </label>
+            <input type="text" name="instensino" class="dado" placeholder="Instituição de Ensino" required>
+        </div>
+        <div class="dadosCad">
+            <label for="" class="rotulo">Curso:</label>
+            <input type="text" name="curso" class="dado" placeholder="Curso" required>
+        </div>
+        <div class="dadosCad">
+            <label for="" class="rotulo">Senha:</label>
+            <input type="password" name="senha" class="dado" placeholder="senha" required>
+        </div>
+        <div class="dadosCad">
+            <label for="" class="rotulo">Confirmar Senha:</label>
+            <input type="password" name="Csenha" class="dado" placeholder="Confirmar senha" required>
+        </div>
+        <button id="cad" class="botaoCad" type="submit" value="Cadastrar" onclick="enviarDados();">Cadastrar</button>
+    </form>
+    <a href="index.html"><button class="btn">VOLTAR</button>
+</body>
+
+<!--<button id="cad" type="submit"  class="botaoCad" onclick="enviarDados();">Cadastrar</button>-->
+</html>

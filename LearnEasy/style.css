@@ -1,0 +1,239 @@
+body {
+    background-color: #EFEDC7;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.title{
+    color: #FF4E4C ;
+    font-size: large;
+    margin: 200px;
+    display: flexbox;
+}
+.formulario {
+
+    margin-left: 43%;
+    margin-top: 25%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 270px;
+    padding: 10px;
+}
+
+label{
+   color: #FF4E4C ;
+   font-size: large;
+   
+}
+
+input{
+    
+    box-shadow: 1.5px 1.5px 2px #FF4E4C;
+    width: 200px;
+    height: 25px;
+    border-radius: 15px;
+    border-style: none;
+    float: right;
+    
+}
+
+.btnCadastro{
+    
+    float: right;
+}
+a,.link{
+    margin-left: 50px;
+    padding: 4px;
+    color: black;
+   
+    font-size: small;
+    text-decoration: none;
+   
+}
+
+button,.botao {
+    padding: 10px;
+    background-color: #FF4E4C;
+    width: 150px;
+    margin-left: 80px;
+    margin-top: 22px;
+    border-radius: 20px;
+    border-style: none;
+    box-shadow: 2px 2px 2px #FF4E4C;
+    cursor: pointer;
+    color: white;
+    
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float:left;
+}
+
+/*div,.painel {
+    height: 10em;
+    position: relative;
+    border-style: double;
+}*/
+
+/*button .buttons-container  {
+    
+    display: inline-block;
+    margin-right: 10px; /* Espaçamento entre os botões, ajuste conforme necessário */
+
+
+    .buttonscontainer{
+
+        border-style: double;
+    }
+.CRUD{
+
+    margin-right: 1000px;
+
+
+
+}
+
+div .btn {
+    
+   
+    position: relative;
+    top: 50%;
+    left: 47.5%;
+    transform: translate(-50%, -50%);
+  
+}
+
+/*.painel {
+    color: white;
+    margin: 50%;
+    border-color: #4C0703;
+    background-color: #FF4E4C;
+    width: 120px;
+    height: 65px;
+    border-radius: 20px;
+    /text-align: center;
+    padding-top: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: double;
+}
+*/
+div.imagem {
+    height: 10em;
+    width: 20em;
+    position: fixed;
+
+
+    margin: 0;
+
+    position: fixed;
+    top: 20%;
+    left: 48%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+div.imagem-2 {
+    height: 10em;
+    width: 20em;
+    position: absolute;
+    border-style: none;
+    margin: 0;
+
+    top: 10%;
+    left: 48%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+div .imagem-3{
+
+    border-style: double;
+}
+img, .carregando{
+
+    display: flex;
+    border-style: double;
+    position: relative;
+    left: 780px;
+    top: 350px;
+}
+
+.cadastro {
+    max-width: 750px;
+    margin-left: 550px;
+    margin-top: 140px;
+    
+    border-style: double;
+    border-color: #FF4E4C;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content:center;
+
+    /*
+    margin-left: 43px;
+    margin-top: 25px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 270px;
+    padding: 10px;*/
+}
+
+.dadosCad{
+
+    
+    border-radius: 10px;
+    width: 315px;
+    height: 15px;
+    text-align: center;
+    float: left;
+    margin-top: 20px;
+    padding: 5px;
+
+    
+    
+}
+
+.rotulo{
+    margin-left: -200px;
+    float: left;
+    
+}
+
+.dado{
+    margin-left: -200px;
+    
+    position: absolute;
+    
+}
+.botaoCad{
+    margin-top: 35px;
+    margin-left: -200px;
+    float: left;
+    border-style: none;
+    box-shadow: 2px 2px 2px #FF4E4C;
+    margin-bottom: 10px;
+}
+h1{
+    text-align: center;
+    color: #FF4E4C;
+    text-decoration: overline;
+}
+
+h2{
+    text-align: center;
+    color: #FF4E4C;
+    text-decoration: overline;
+}
